@@ -1,0 +1,95 @@
+{
+  "method": "independent exhaustive subset/private-zero counter",
+  "orders": "13..20",
+  "summaries": [
+    {
+      "n": 13,
+      "C_n_by_DP": 792,
+      "extremizer_count": 1,
+      "extremizer_counts_by_independent_subset_counter": [
+        792
+      ],
+      "path_count_by_independent_subset_counter": 775,
+      "T_k_count_by_independent_subset_counter": 792,
+      "all_extremizers_agree": true
+    },
+    {
+      "n": 14,
+      "C_n_by_DP": 1306,
+      "extremizer_count": 1,
+      "extremizer_counts_by_independent_subset_counter": [
+        1306
+      ],
+      "path_count_by_independent_subset_counter": 1306,
+      "T_k_count_by_independent_subset_counter": null,
+      "all_extremizers_agree": true
+    },
+    {
+      "n": 15,
+      "C_n_by_DP": 2314,
+      "extremizer_count": 1,
+      "extremizer_counts_by_independent_subset_counter": [
+        2314
+      ],
+      "path_count_by_independent_subset_counter": 2201,
+      "T_k_count_by_independent_subset_counter": 2314,
+      "all_extremizers_agree": true
+    },
+    {
+      "n": 16,
+      "C_n_by_DP": 3709,
+      "extremizer_count": 1,
+      "extremizer_counts_by_independent_subset_counter": [
+        3709
+      ],
+      "path_count_by_independent_subset_counter": 3709,
+      "T_k_count_by_independent_subset_counter": null,
+      "all_extremizers_agree": true
+    },
+    {
+      "n": 17,
+      "C_n_by_DP": 6816,
+      "extremizer_count": 1,
+      "extremizer_counts_by_independent_subset_counter": [
+        6816
+      ],
+      "path_count_by_independent_subset_counter": 6250,
+      "T_k_count_by_independent_subset_counter": 6816,
+      "all_extremizers_agree": true
+    },
+    {
+      "n": 18,
+      "C_n_by_DP": 10532,
+      "extremizer_count": 1,
+      "extremizer_counts_by_independent_subset_counter": [
+        10532
+      ],
+      "path_count_by_independent_subset_counter": 10532,
+      "T_k_count_by_independent_subset_counter": null,
+      "all_extremizers_agree": true
+    },
+    {
+      "n": 19,
+      "C_n_by_DP": 20194,
+      "extremizer_count": 1,
+      "extremizer_counts_by_independent_subset_counter": [
+        20194
+      ],
+      "path_count_by_independent_subset_counter": 17748,
+      "T_k_count_by_independent_subset_counter": 20194,
+      "all_extremizers_agree": true
+    },
+    {
+      "n": 20,
+      "C_n_by_DP": 29908,
+      "extremizer_count": 1,
+      "extremizer_counts_by_independent_subset_counter": [
+        29908
+      ],
+      "path_count_by_independent_subset_counter": 29908,
+      "T_k_count_by_independent_subset_counter": null,
+      "all_extremizers_agree": true
+    }
+  ],
+  "seconds": 7.649625099962577
+}

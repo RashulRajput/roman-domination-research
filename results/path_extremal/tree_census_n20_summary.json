@@ -1,0 +1,23 @@
+{
+  "order": 20,
+  "canonical_generator": "networkx.generators.nonisomorphic_trees",
+  "counter": "bounded-memo exact rooted-tree DP in bounded_memo_tree_dp.py",
+  "python": "3.10.0",
+  "networkx": "3.3",
+  "classes_emitted": 823065,
+  "known_unlabeled_tree_count": 823065,
+  "class_count_check": true,
+  "C_n": 29908,
+  "extremizers_graph6": [
+    "SpCGGC@?G?g??@??_?G?@??C??G??G??C"
+  ],
+  "path_count": 29908,
+  "T_k_count": null,
+  "path_is_extremal": true,
+  "T_k_is_extremal": null,
+  "seconds_for_order": 490.884245299967,
+  "seconds_total": 490.8928316999227,
+  "rooted_shapes_cached": 1205,
+  "memo_cache_limit_vertices": 10,
+  "data_file": "tree_census_n20.jsonl.gz"
+}

@@ -1,0 +1,21 @@
+{
+  "order": 19,
+  "canonical_generator": "networkx.generators.nonisomorphic_trees",
+  "counter": "count_tree_dp in tree_dp_recurrence.py",
+  "python": "3.10.0",
+  "networkx": "3.3",
+  "classes_emitted": 317955,
+  "known_unlabeled_tree_count": 317955,
+  "class_count_check": true,
+  "C_n": 20194,
+  "extremizers_graph6": [
+    "RqD?I?@O??g??@O???I????D?????G"
+  ],
+  "path_count": 17748,
+  "T_k_count": 20194,
+  "path_is_extremal": false,
+  "T_k_is_extremal": true,
+  "seconds_for_order": 226.75547680002637,
+  "seconds_total": 226.7640593999531,
+  "data_file": "tree_census_n19.jsonl.gz"
+}

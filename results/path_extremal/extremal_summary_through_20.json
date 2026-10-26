@@ -1,0 +1,1131 @@
+{
+  "complete_census_through_order": 20,
+  "orders": [
+    {
+      "n": 1,
+      "classes": 1,
+      "C_n": 1,
+      "path_count": 1,
+      "expected_unlabeled_tree_classes": 1,
+      "class_count_agrees": true,
+      "extremizers": [
+        {
+          "graph6": "@",
+          "edges": []
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "classes": 1,
+      "C_n": 3,
+      "path_count": 3,
+      "expected_unlabeled_tree_classes": 1,
+      "class_count_agrees": true,
+      "extremizers": [
+        {
+          "graph6": "A_",
+          "edges": [
+            [
+              0,
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "classes": 1,
+      "C_n": 4,
+      "path_count": 4,
+      "expected_unlabeled_tree_classes": 1,
+      "class_count_agrees": true,
+      "extremizers": [
+        {
+          "graph6": "Bg",
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "classes": 2,
+      "C_n": 7,
+      "path_count": 7,
+      "expected_unlabeled_tree_classes": 2,
+      "class_count_agrees": true,
+      "extremizers": [
+        {
+          "graph6": "Cq",
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              3
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "classes": 3,
+      "C_n": 12,
+      "path_count": 12,
+      "expected_unlabeled_tree_classes": 3,
+      "class_count_agrees": true,
+      "extremizers": [
+        {
+          "graph6": "DqC",
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              3,
+              4
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "classes": 6,
+      "C_n": 20,
+      "path_count": 20,
+      "expected_unlabeled_tree_classes": 6,
+      "class_count_agrees": true,
+      "extremizers": [
+        {
+          "graph6": "EpOG",
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              4,
+              5
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "classes": 11,
+      "C_n": 34,
+      "path_count": 34,
+      "expected_unlabeled_tree_classes": 11,
+      "class_count_agrees": true,
+      "extremizers": [
+        {
+          "graph6": "FpOGG",
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              5,
+              6
+            ]
+          ]
+        },
+        {
+          "graph6": "FqD?G",
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              5,
+              6
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "classes": 23,
+      "C_n": 57,
+      "path_count": 57,
+      "expected_unlabeled_tree_classes": 23,
+      "class_count_agrees": true,
+      "extremizers": [
+        {
+          "graph6": "GpD?GC",
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              6,
+              7
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "classes": 47,
+      "C_n": 96,
+      "path_count": 96,
+      "expected_unlabeled_tree_classes": 47,
+      "class_count_agrees": true,
+      "extremizers": [
+        {
+          "graph6": "HpD?GC@",
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              7,
+              8
+            ]
+          ]
+        },
+        {
+          "graph6": "HqD?I?@",
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              7,
+              8
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "classes": 106,
+      "C_n": 162,
+      "path_count": 162,
+      "expected_unlabeled_tree_classes": 106,
+      "class_count_agrees": true,
+      "extremizers": [
+        {
+          "graph6": "IpCI?C@?G",
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              8,
+              9
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "classes": 235,
+      "C_n": 274,
+      "path_count": 273,
+      "expected_unlabeled_tree_classes": 235,
+      "class_count_agrees": true,
+      "extremizers": [
+        {
+          "graph6": "JqD?I?@O??_",
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              1,
+              9
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              9,
+              10
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "classes": 551,
+      "C_n": 460,
+      "path_count": 460,
+      "expected_unlabeled_tree_classes": 551,
+      "class_count_agrees": true,
+      "extremizers": [
+        {
+          "graph6": "KpCGI?@?G?_@",
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              8,
+              9
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              10,
+              11
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "classes": 1301,
+      "C_n": 792,
+      "path_count": 775,
+      "expected_unlabeled_tree_classes": 1301,
+      "class_count_agrees": true,
+      "extremizers": [
+        {
+          "graph6": "LqD?I?@O??g??@",
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              1,
+              9
+            ],
+            [
+              1,
+              11
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              11,
+              12
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "classes": 3159,
+      "C_n": 1306,
+      "path_count": 1306,
+      "expected_unlabeled_tree_classes": 3159,
+      "class_count_agrees": true,
+      "extremizers": [
+        {
+          "graph6": "MpCGGD??G?_@?@??_",
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              8
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              8,
+              9
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              10,
+              11
+            ],
+            [
+              11,
+              12
+            ],
+            [
+              12,
+              13
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "classes": 7741,
+      "C_n": 2314,
+      "path_count": 2201,
+      "expected_unlabeled_tree_classes": 7741,
+      "class_count_agrees": true,
+      "extremizers": [
+        {
+          "graph6": "NqD?I?@O??g??@O???G",
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              1,
+              9
+            ],
+            [
+              1,
+              11
+            ],
+            [
+              1,
+              13
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              11,
+              12
+            ],
+            [
+              13,
+              14
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "classes": 19320,
+      "C_n": 3709,
+      "path_count": 3709,
+      "expected_unlabeled_tree_classes": 19320,
+      "class_count_agrees": true,
+      "extremizers": [
+        {
+          "graph6": "OpCGGC@O??_@?@??_?G?@",
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              9
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              10,
+              11
+            ],
+            [
+              11,
+              12
+            ],
+            [
+              12,
+              13
+            ],
+            [
+              13,
+              14
+            ],
+            [
+              14,
+              15
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "classes": 48629,
+      "C_n": 6816,
+      "path_count": 6250,
+      "expected_unlabeled_tree_classes": 48629,
+      "class_count_agrees": true,
+      "extremizers": [
+        {
+          "graph6": "PqD?I?@O??g??@O???I????C",
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              1,
+              9
+            ],
+            [
+              1,
+              11
+            ],
+            [
+              1,
+              13
+            ],
+            [
+              1,
+              15
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              11,
+              12
+            ],
+            [
+              13,
+              14
+            ],
+            [
+              15,
+              16
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "classes": 123867,
+      "C_n": 10532,
+      "path_count": 10532,
+      "expected_unlabeled_tree_classes": 123867,
+      "class_count_agrees": true,
+      "extremizers": [
+        {
+          "graph6": "QpCGGC@?I??@?@??_?G?@??C??G",
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              10
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              8,
+              9
+            ],
+            [
+              10,
+              11
+            ],
+            [
+              11,
+              12
+            ],
+            [
+              12,
+              13
+            ],
+            [
+              13,
+              14
+            ],
+            [
+              14,
+              15
+            ],
+            [
+              15,
+              16
+            ],
+            [
+              16,
+              17
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "classes": 317955,
+      "C_n": 20194,
+      "path_count": 17748,
+      "expected_unlabeled_tree_classes": 317955,
+      "class_count_agrees": true,
+      "extremizers": [
+        {
+          "graph6": "RqD?I?@O??g??@O???I????D?????G",
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              1,
+              9
+            ],
+            [
+              1,
+              11
+            ],
+            [
+              1,
+              13
+            ],
+            [
+              1,
+              15
+            ],
+            [
+              1,
+              17
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              11,
+              12
+            ],
+            [
+              13,
+              14
+            ],
+            [
+              15,
+              16
+            ],
+            [
+              17,
+              18
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "classes": 823065,
+      "C_n": 29908,
+      "path_count": 29908,
+      "expected_unlabeled_tree_classes": 823065,
+      "class_count_agrees": true,
+      "extremizers": [
+        {
+          "graph6": "SpCGGC@?G?g??@??_?G?@??C??G??G??C",
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              11
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              8,
+              9
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              11,
+              12
+            ],
+            [
+              12,
+              13
+            ],
+            [
+              13,
+              14
+            ],
+            [
+              14,
+              15
+            ],
+            [
+              15,
+              16
+            ],
+            [
+              16,
+              17
+            ],
+            [
+              17,
+              18
+            ],
+            [
+              18,
+              19
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "note": "Finite exhaustive census only; no extrapolation beyond complete_census_through_order."
+}

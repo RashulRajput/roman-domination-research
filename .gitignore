@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+*.pyo
+*.log
+results/path_extremal/tree_census_extension_through_18.json

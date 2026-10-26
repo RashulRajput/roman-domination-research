@@ -1,0 +1,1713 @@
+{
+  "candidate": "For every connected chordal G of order n, m(G) <= m(P_n).",
+  "local_lemma": "For every connected chordal G of order n>=2, some simplicial v satisfies m(G)-m(G-v) <= m(P_n)-m(P_{n-1}).",
+  "software": {
+    "python": "3.10.0",
+    "networkx": "3.3",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "atlas_graphs": 1253,
+    "atlas_order_histogram": {
+      "0": 1,
+      "1": 1,
+      "2": 2,
+      "3": 4,
+      "4": 11,
+      "5": 34,
+      "6": 156,
+      "7": 1044
+    }
+  },
+  "path_counts": {
+    "1": 1,
+    "2": 3,
+    "3": 4,
+    "4": 7,
+    "5": 12,
+    "6": 20,
+    "7": 34
+  },
+  "orders": {
+    "1": {
+      "connected_chordal_graphs": 1,
+      "connected_graphs": 1,
+      "path_count": 1,
+      "maximum_count": 1,
+      "path_is_maximal": true,
+      "number_of_extremizers": 1,
+      "extremizers": [
+        {
+          "atlas_id": 1,
+          "edges": [],
+          "count": 1
+        }
+      ],
+      "path_increment": null,
+      "path_pair_increment": null,
+      "minimum_simplicial_deletion_increment": null,
+      "maximum_simplicial_deletion_increment": null
+    },
+    "2": {
+      "connected_chordal_graphs": 1,
+      "connected_graphs": 1,
+      "path_count": 3,
+      "maximum_count": 3,
+      "path_is_maximal": true,
+      "number_of_extremizers": 1,
+      "extremizers": [
+        {
+          "atlas_id": 3,
+          "edges": [
+            [
+              0,
+              1
+            ]
+          ],
+          "count": 3
+        }
+      ],
+      "path_increment": 2,
+      "path_pair_increment": null,
+      "minimum_simplicial_deletion_increment": 2,
+      "maximum_simplicial_deletion_increment": 2
+    },
+    "3": {
+      "connected_chordal_graphs": 2,
+      "connected_graphs": 2,
+      "path_count": 4,
+      "maximum_count": 4,
+      "path_is_maximal": true,
+      "number_of_extremizers": 2,
+      "extremizers": [
+        {
+          "atlas_id": 6,
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "count": 4
+        },
+        {
+          "atlas_id": 7,
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "count": 4
+        }
+      ],
+      "path_increment": 1,
+      "path_pair_increment": 3,
+      "minimum_simplicial_deletion_increment": 1,
+      "maximum_simplicial_deletion_increment": 1
+    },
+    "4": {
+      "connected_chordal_graphs": 5,
+      "connected_graphs": 6,
+      "path_count": 7,
+      "maximum_count": 7,
+      "path_is_maximal": true,
+      "number_of_extremizers": 1,
+      "extremizers": [
+        {
+          "atlas_id": 14,
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "count": 7
+        }
+      ],
+      "path_increment": 3,
+      "path_pair_increment": 4,
+      "minimum_simplicial_deletion_increment": 1,
+      "maximum_simplicial_deletion_increment": 3
+    },
+    "5": {
+      "connected_chordal_graphs": 15,
+      "connected_graphs": 21,
+      "path_count": 12,
+      "maximum_count": 12,
+      "path_is_maximal": true,
+      "number_of_extremizers": 1,
+      "extremizers": [
+        {
+          "atlas_id": 31,
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          "count": 12
+        }
+      ],
+      "path_increment": 5,
+      "path_pair_increment": 8,
+      "minimum_simplicial_deletion_increment": 1,
+      "maximum_simplicial_deletion_increment": 6
+    },
+    "6": {
+      "connected_chordal_graphs": 58,
+      "connected_graphs": 112,
+      "path_count": 20,
+      "maximum_count": 20,
+      "path_is_maximal": true,
+      "number_of_extremizers": 1,
+      "extremizers": [
+        {
+          "atlas_id": 83,
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              5
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              4,
+              5
+            ]
+          ],
+          "count": 20
+        }
+      ],
+      "path_increment": 8,
+      "path_pair_increment": 13,
+      "minimum_simplicial_deletion_increment": 1,
+      "maximum_simplicial_deletion_increment": 8
+    },
+    "7": {
+      "connected_chordal_graphs": 272,
+      "connected_graphs": 853,
+      "path_count": 34,
+      "maximum_count": 34,
+      "path_is_maximal": true,
+      "number_of_extremizers": 2,
+      "extremizers": [
+        {
+          "atlas_id": 284,
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              5
+            ]
+          ],
+          "count": 34
+        },
+        {
+          "atlas_id": 286,
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              6
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              4,
+              5
+            ]
+          ],
+          "count": 34
+        }
+      ],
+      "path_increment": 14,
+      "path_pair_increment": 22,
+      "minimum_simplicial_deletion_increment": 1,
+      "maximum_simplicial_deletion_increment": 18
+    }
+  },
+  "engine_mismatches": [],
+  "chordality_mismatches": [],
+  "deletion_identity_mismatches": [],
+  "path_extremality_violations": [],
+  "local_lemma_violations": [
+    {
+      "atlas_id": 284,
+      "n": 7,
+      "best_simplicial_delta": 17,
+      "path_increment": 14,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ]
+      ]
+    },
+    {
+      "atlas_id": 420,
+      "n": 7,
+      "best_simplicial_delta": 16,
+      "path_increment": 14,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ]
+      ]
+    },
+    {
+      "atlas_id": 551,
+      "n": 7,
+      "best_simplicial_delta": 17,
+      "path_increment": 14,
+      "edges": [
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ]
+    }
+  ],
+  "local_lemma_all_simplicial_violations": [
+    {
+      "n": 5,
+      "atlas_id": 36,
+      "vertex": 0,
+      "delta": 6,
+      "path_increment": 5,
+      "edge_count": 5,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "n": 7,
+      "atlas_id": 284,
+      "vertex": 2,
+      "delta": 17,
+      "path_increment": 14,
+      "edge_count": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ]
+      ]
+    },
+    {
+      "n": 7,
+      "atlas_id": 284,
+      "vertex": 5,
+      "delta": 17,
+      "path_increment": 14,
+      "edge_count": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ]
+      ]
+    },
+    {
+      "n": 7,
+      "atlas_id": 284,
+      "vertex": 6,
+      "delta": 17,
+      "path_increment": 14,
+      "edge_count": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ]
+      ]
+    },
+    {
+      "n": 7,
+      "atlas_id": 333,
+      "vertex": 3,
+      "delta": 18,
+      "path_increment": 14,
+      "edge_count": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          5,
+          6
+        ]
+      ]
+    },
+    {
+      "n": 7,
+      "atlas_id": 333,
+      "vertex": 6,
+      "delta": 18,
+      "path_increment": 14,
+      "edge_count": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          5,
+          6
+        ]
+      ]
+    },
+    {
+      "n": 7,
+      "atlas_id": 338,
+      "vertex": 3,
+      "delta": 15,
+      "path_increment": 14,
+      "edge_count": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ]
+      ]
+    },
+    {
+      "n": 7,
+      "atlas_id": 338,
+      "vertex": 6,
+      "delta": 15,
+      "path_increment": 14,
+      "edge_count": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ]
+      ]
+    },
+    {
+      "n": 7,
+      "atlas_id": 420,
+      "vertex": 1,
+      "delta": 16,
+      "path_increment": 14,
+      "edge_count": 8,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ]
+      ]
+    },
+    {
+      "n": 7,
+      "atlas_id": 420,
+      "vertex": 2,
+      "delta": 16,
+      "path_increment": 14,
+      "edge_count": 8,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ]
+      ]
+    },
+    {
+      "n": 7,
+      "atlas_id": 420,
+      "vertex": 3,
+      "delta": 18,
+      "path_increment": 14,
+      "edge_count": 8,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ]
+      ]
+    },
+    {
+      "n": 7,
+      "atlas_id": 420,
+      "vertex": 4,
+      "delta": 16,
+      "path_increment": 14,
+      "edge_count": 8,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ]
+      ]
+    },
+    {
+      "n": 7,
+      "atlas_id": 420,
+      "vertex": 5,
+      "delta": 16,
+      "path_increment": 14,
+      "edge_count": 8,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ]
+      ]
+    },
+    {
+      "n": 7,
+      "atlas_id": 551,
+      "vertex": 0,
+      "delta": 17,
+      "path_increment": 14,
+      "edge_count": 9,
+      "edges": [
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ]
+    },
+    {
+      "n": 7,
+      "atlas_id": 551,
+      "vertex": 1,
+      "delta": 17,
+      "path_increment": 14,
+      "edge_count": 9,
+      "edges": [
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ]
+    },
+    {
+      "n": 7,
+      "atlas_id": 551,
+      "vertex": 2,
+      "delta": 17,
+      "path_increment": 14,
+      "edge_count": 9,
+      "edges": [
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ]
+    },
+    {
+      "n": 7,
+      "atlas_id": 551,
+      "vertex": 3,
+      "delta": 17,
+      "path_increment": 14,
+      "edge_count": 9,
+      "edges": [
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ]
+    },
+    {
+      "n": 7,
+      "atlas_id": 551,
+      "vertex": 4,
+      "delta": 17,
+      "path_increment": 14,
+      "edge_count": 9,
+      "edges": [
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ]
+    },
+    {
+      "n": 7,
+      "atlas_id": 551,
+      "vertex": 5,
+      "delta": 17,
+      "path_increment": 14,
+      "edge_count": 9,
+      "edges": [
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ]
+    }
+  ],
+  "pair_lemma_violations": [
+    {
+      "atlas_id": 284,
+      "n": 7,
+      "best_pair_delta": 25,
+      "path_pair_increment": 22,
+      "eligible_pairs": [
+        {
+          "atlas_id": 284,
+          "vertices": [
+            2,
+            5
+          ],
+          "delta": 25,
+          "path_pair_increment": 22,
+          "remaining_connected": true,
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              5
+            ]
+          ]
+        },
+        {
+          "atlas_id": 284,
+          "vertices": [
+            2,
+            6
+          ],
+          "delta": 25,
+          "path_pair_increment": 22,
+          "remaining_connected": true,
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              5
+            ]
+          ]
+        },
+        {
+          "atlas_id": 284,
+          "vertices": [
+            5,
+            6
+          ],
+          "delta": 25,
+          "path_pair_increment": 22,
+          "remaining_connected": true,
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              5
+            ]
+          ]
+        }
+      ],
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ]
+      ]
+    }
+  ],
+  "pair_lemma_no_eligible_pair": [],
+  "pair_lemma_all_pairs_violations": [
+    {
+      "n": 7,
+      "atlas_id": 284,
+      "vertices": [
+        2,
+        5
+      ],
+      "delta": 25,
+      "path_pair_increment": 22,
+      "remaining_connected": true,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ]
+      ]
+    },
+    {
+      "n": 7,
+      "atlas_id": 284,
+      "vertices": [
+        2,
+        6
+      ],
+      "delta": 25,
+      "path_pair_increment": 22,
+      "remaining_connected": true,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ]
+      ]
+    },
+    {
+      "n": 7,
+      "atlas_id": 284,
+      "vertices": [
+        5,
+        6
+      ],
+      "delta": 25,
+      "path_pair_increment": 22,
+      "remaining_connected": true,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ]
+      ]
+    },
+    {
+      "n": 7,
+      "atlas_id": 333,
+      "vertices": [
+        3,
+        6
+      ],
+      "delta": 25,
+      "path_pair_increment": 22,
+      "remaining_connected": true,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          5,
+          6
+        ]
+      ]
+    },
+    {
+      "n": 7,
+      "atlas_id": 420,
+      "vertices": [
+        1,
+        3
+      ],
+      "delta": 23,
+      "path_pair_increment": 22,
+      "remaining_connected": true,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ]
+      ]
+    },
+    {
+      "n": 7,
+      "atlas_id": 420,
+      "vertices": [
+        2,
+        3
+      ],
+      "delta": 23,
+      "path_pair_increment": 22,
+      "remaining_connected": true,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ]
+      ]
+    },
+    {
+      "n": 7,
+      "atlas_id": 420,
+      "vertices": [
+        3,
+        4
+      ],
+      "delta": 23,
+      "path_pair_increment": 22,
+      "remaining_connected": true,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ]
+      ]
+    },
+    {
+      "n": 7,
+      "atlas_id": 420,
+      "vertices": [
+        3,
+        5
+      ],
+      "delta": 23,
+      "path_pair_increment": 22,
+      "remaining_connected": true,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ]
+      ]
+    }
+  ],
+  "nonchordal_boundary_examples": [
+    {
+      "atlas_id": 16,
+      "n": 4,
+      "count": 9,
+      "path_count": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    }
+  ],
+  "elapsed_seconds": 6.269,
+  "checks": {
+    "all_atlas_graphs_direct_equals_subset": true,
+    "independent_chordality_matches_networkx": true,
+    "simplicial_deletion_identity_holds": true,
+    "path_extremal_candidate_survives_atlas": true,
+    "existential_local_increment_lemma_survives_atlas": false,
+    "universal_local_increment_lemma_survives_atlas": false,
+    "existential_connected_pair_increment_lemma_survives_atlas": false,
+    "every_connected_chordal_graph_has_an_eligible_pair": true,
+    "universal_pair_increment_lemma_survives_atlas": false
+  }
+}

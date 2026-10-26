@@ -1,0 +1,229 @@
+{
+  "leaf_to_leaf_transfer": {
+    "source_graph6": "EqD?",
+    "source_edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "source_count_direct": 17,
+    "source_by_subset_size": [
+      1,
+      6,
+      8,
+      2,
+      0,
+      0,
+      0
+    ],
+    "target_graph6": "EaL?",
+    "target_edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "target_count_direct": 15,
+    "target_by_subset_size": [
+      1,
+      6,
+      8,
+      0,
+      0,
+      0,
+      0
+    ],
+    "order": 6
+  },
+  "split_arm_r_to_2_plus_r_minus_2": {
+    "source_graph6": "DpC",
+    "source_edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "source_count_direct": 12,
+    "source_by_subset_size": [
+      1,
+      5,
+      6,
+      0,
+      0,
+      0
+    ],
+    "target_graph6": "DsC",
+    "target_edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "target_count_direct": 9,
+    "target_by_subset_size": [
+      1,
+      5,
+      3,
+      0,
+      0,
+      0
+    ],
+    "order": 5
+  },
+  "balance_two_spider_legs": {
+    "source_graph6": "HsE?GC@",
+    "source_edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ]
+    ],
+    "source_count_direct": 57,
+    "source_by_subset_size": [
+      1,
+      9,
+      25,
+      19,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "target_graph6": "HsCK?C@",
+    "target_edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ]
+    ],
+    "target_count_direct": 56,
+    "target_by_subset_size": [
+      1,
+      9,
+      25,
+      21,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "order": 9
+  }
+}

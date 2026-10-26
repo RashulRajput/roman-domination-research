@@ -1,0 +1,10 @@
+{
+  "order": 17,
+  "canonical_prefix_trees": 500,
+  "audited_dp_seconds": 0.17835589998867363,
+  "array_dp_seconds": 0.43845570005942136,
+  "unbounded_memo_dp_seconds": 0.0739131000591442,
+  "bounded_memo_dp_seconds": 0.0633246999932453,
+  "bounded_shapes_cached": 307,
+  "bounded_speedup": 2.8165297270685596
+}

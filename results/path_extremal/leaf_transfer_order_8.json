@@ -1,0 +1,541 @@
+{
+  "operation": "replace leaf edge v-ell by x-ell for a distinct existing leaf x",
+  "hypothesis_tested": "every such leaf transfer satisfies m(after) >= m(before)",
+  "exhaustive_orders": "3..8",
+  "per_order": [
+    {
+      "n": 3,
+      "unlabeled_trees": 1,
+      "moves": 2,
+      "decreases": 0,
+      "equal": 2,
+      "increases": 0,
+      "seconds": 0.0010222001001238823
+    },
+    {
+      "n": 4,
+      "unlabeled_trees": 2,
+      "moves": 8,
+      "decreases": 0,
+      "equal": 2,
+      "increases": 6,
+      "seconds": 0.0010672000935301185
+    },
+    {
+      "n": 5,
+      "unlabeled_trees": 3,
+      "moves": 20,
+      "decreases": 0,
+      "equal": 4,
+      "increases": 16,
+      "seconds": 0.003234699950553477
+    },
+    {
+      "n": 6,
+      "unlabeled_trees": 6,
+      "moves": 58,
+      "decreases": 2,
+      "equal": 7,
+      "increases": 49,
+      "seconds": 0.009403200005181134
+    },
+    {
+      "n": 7,
+      "unlabeled_trees": 11,
+      "moves": 138,
+      "decreases": 9,
+      "equal": 15,
+      "increases": 114,
+      "seconds": 0.026663299999199808
+    },
+    {
+      "n": 8,
+      "unlabeled_trees": 23,
+      "moves": 374,
+      "decreases": 24,
+      "equal": 33,
+      "increases": 317,
+      "seconds": 0.07798930001445115
+    }
+  ],
+  "smallest_counterexample": {
+    "n": 6,
+    "source_graph6": "EqD?",
+    "source_edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "source_count": 17,
+    "moved_graph6": "EaL?",
+    "moved_edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "moved_count": 15,
+    "move": {
+      "leaf": 2,
+      "from_neighbor": 1,
+      "to_leaf": 4
+    }
+  },
+  "all_counterexamples_through_order_8": [
+    {
+      "n": 6,
+      "source_graph6": "EqD?",
+      "source_count": 17,
+      "moved_graph6": "EaL?",
+      "moved_count": 15,
+      "move": {
+        "leaf": 2,
+        "from_neighbor": 1,
+        "to_leaf": 4
+      }
+    },
+    {
+      "n": 6,
+      "source_graph6": "EqD?",
+      "source_count": 17,
+      "moved_graph6": "EqH?",
+      "moved_count": 15,
+      "move": {
+        "leaf": 4,
+        "from_neighbor": 3,
+        "to_leaf": 2
+      }
+    },
+    {
+      "n": 7,
+      "source_graph6": "FpOI?",
+      "source_count": 28,
+      "moved_graph6": "FpOQ?",
+      "moved_count": 25,
+      "move": {
+        "leaf": 5,
+        "from_neighbor": 4,
+        "to_leaf": 3
+      }
+    },
+    {
+      "n": 7,
+      "source_graph6": "FqD?G",
+      "source_count": 34,
+      "moved_graph6": "FaL?G",
+      "moved_count": 28,
+      "move": {
+        "leaf": 2,
+        "from_neighbor": 1,
+        "to_leaf": 4
+      }
+    },
+    {
+      "n": 7,
+      "source_graph6": "FqD?G",
+      "source_count": 34,
+      "moved_graph6": "FaD@G",
+      "moved_count": 28,
+      "move": {
+        "leaf": 2,
+        "from_neighbor": 1,
+        "to_leaf": 6
+      }
+    },
+    {
+      "n": 7,
+      "source_graph6": "FqD?G",
+      "source_count": 34,
+      "moved_graph6": "FqH?G",
+      "moved_count": 28,
+      "move": {
+        "leaf": 4,
+        "from_neighbor": 3,
+        "to_leaf": 2
+      }
+    },
+    {
+      "n": 7,
+      "source_graph6": "FqD?G",
+      "source_count": 34,
+      "moved_graph6": "Fq@?W",
+      "moved_count": 28,
+      "move": {
+        "leaf": 4,
+        "from_neighbor": 3,
+        "to_leaf": 6
+      }
+    },
+    {
+      "n": 7,
+      "source_graph6": "FqD?G",
+      "source_count": 34,
+      "moved_graph6": "FqD@?",
+      "moved_count": 28,
+      "move": {
+        "leaf": 6,
+        "from_neighbor": 5,
+        "to_leaf": 2
+      }
+    },
+    {
+      "n": 7,
+      "source_graph6": "FqD?G",
+      "source_count": 34,
+      "moved_graph6": "FqD?O",
+      "moved_count": 28,
+      "move": {
+        "leaf": 6,
+        "from_neighbor": 5,
+        "to_leaf": 4
+      }
+    },
+    {
+      "n": 7,
+      "source_graph6": "FqDA?",
+      "source_count": 21,
+      "moved_graph6": "FaLA?",
+      "moved_count": 18,
+      "move": {
+        "leaf": 2,
+        "from_neighbor": 1,
+        "to_leaf": 4
+      }
+    },
+    {
+      "n": 7,
+      "source_graph6": "FqDA?",
+      "source_count": 21,
+      "moved_graph6": "FqHA?",
+      "moved_count": 18,
+      "move": {
+        "leaf": 4,
+        "from_neighbor": 3,
+        "to_leaf": 2
+      }
+    },
+    {
+      "n": 8,
+      "source_graph6": "Gp`?GC",
+      "source_count": 47,
+      "moved_graph6": "Go`?Gc",
+      "moved_count": 43,
+      "move": {
+        "leaf": 3,
+        "from_neighbor": 2,
+        "to_leaf": 7
+      }
+    },
+    {
+      "n": 8,
+      "source_graph6": "Gp`?I?",
+      "source_count": 41,
+      "moved_graph6": "Go`?i?",
+      "moved_count": 36,
+      "move": {
+        "leaf": 3,
+        "from_neighbor": 2,
+        "to_leaf": 6
+      }
+    },
+    {
+      "n": 8,
+      "source_graph6": "Gp`?I?",
+      "source_count": 41,
+      "moved_graph6": "Gp`?a?",
+      "moved_count": 36,
+      "move": {
+        "leaf": 6,
+        "from_neighbor": 5,
+        "to_leaf": 3
+      }
+    },
+    {
+      "n": 8,
+      "source_graph6": "GpOI?C",
+      "source_count": 54,
+      "moved_graph6": "GpOQ?C",
+      "moved_count": 47,
+      "move": {
+        "leaf": 5,
+        "from_neighbor": 4,
+        "to_leaf": 3
+      }
+    },
+    {
+      "n": 8,
+      "source_graph6": "GpOI?C",
+      "source_count": 54,
+      "moved_graph6": "GpOA?K",
+      "moved_count": 47,
+      "move": {
+        "leaf": 5,
+        "from_neighbor": 4,
+        "to_leaf": 7
+      }
+    },
+    {
+      "n": 8,
+      "source_graph6": "GpOI?C",
+      "source_count": 54,
+      "moved_graph6": "GpOI?_",
+      "moved_count": 47,
+      "move": {
+        "leaf": 7,
+        "from_neighbor": 6,
+        "to_leaf": 3
+      }
+    },
+    {
+      "n": 8,
+      "source_graph6": "GpOI?C",
+      "source_count": 54,
+      "moved_graph6": "GpOI?G",
+      "moved_count": 47,
+      "move": {
+        "leaf": 7,
+        "from_neighbor": 6,
+        "to_leaf": 5
+      }
+    },
+    {
+      "n": 8,
+      "source_graph6": "GpOIA?",
+      "source_count": 34,
+      "moved_graph6": "GpOQA?",
+      "moved_count": 30,
+      "move": {
+        "leaf": 5,
+        "from_neighbor": 4,
+        "to_leaf": 3
+      }
+    },
+    {
+      "n": 8,
+      "source_graph6": "GsOI?C",
+      "source_count": 43,
+      "moved_graph6": "GsOa?C",
+      "moved_count": 41,
+      "move": {
+        "leaf": 5,
+        "from_neighbor": 4,
+        "to_leaf": 2
+      }
+    },
+    {
+      "n": 8,
+      "source_graph6": "GsOI?C",
+      "source_count": 43,
+      "moved_graph6": "GsOQ?C",
+      "moved_count": 41,
+      "move": {
+        "leaf": 5,
+        "from_neighbor": 4,
+        "to_leaf": 3
+      }
+    },
+    {
+      "n": 8,
+      "source_graph6": "GsOI?C",
+      "source_count": 43,
+      "moved_graph6": "GsOA?K",
+      "moved_count": 36,
+      "move": {
+        "leaf": 5,
+        "from_neighbor": 4,
+        "to_leaf": 7
+      }
+    },
+    {
+      "n": 8,
+      "source_graph6": "GsOI?C",
+      "source_count": 43,
+      "moved_graph6": "GsOI@?",
+      "moved_count": 41,
+      "move": {
+        "leaf": 7,
+        "from_neighbor": 6,
+        "to_leaf": 2
+      }
+    },
+    {
+      "n": 8,
+      "source_graph6": "GsOI?C",
+      "source_count": 43,
+      "moved_graph6": "GsOI?_",
+      "moved_count": 41,
+      "move": {
+        "leaf": 7,
+        "from_neighbor": 6,
+        "to_leaf": 3
+      }
+    },
+    {
+      "n": 8,
+      "source_graph6": "GsOI?C",
+      "source_count": 43,
+      "moved_graph6": "GsOI?G",
+      "moved_count": 36,
+      "move": {
+        "leaf": 7,
+        "from_neighbor": 6,
+        "to_leaf": 5
+      }
+    },
+    {
+      "n": 8,
+      "source_graph6": "GsOIA?",
+      "source_count": 28,
+      "moved_graph6": "GsOaA?",
+      "moved_count": 27,
+      "move": {
+        "leaf": 5,
+        "from_neighbor": 4,
+        "to_leaf": 2
+      }
+    },
+    {
+      "n": 8,
+      "source_graph6": "GsOIA?",
+      "source_count": 28,
+      "moved_graph6": "GsOQA?",
+      "moved_count": 27,
+      "move": {
+        "leaf": 5,
+        "from_neighbor": 4,
+        "to_leaf": 3
+      }
+    },
+    {
+      "n": 8,
+      "source_graph6": "GqD?I?",
+      "source_count": 43,
+      "moved_graph6": "GaL?I?",
+      "moved_count": 34,
+      "move": {
+        "leaf": 2,
+        "from_neighbor": 1,
+        "to_leaf": 4
+      }
+    },
+    {
+      "n": 8,
+      "source_graph6": "GqD?I?",
+      "source_count": 43,
+      "moved_graph6": "GaD@I?",
+      "moved_count": 34,
+      "move": {
+        "leaf": 2,
+        "from_neighbor": 1,
+        "to_leaf": 6
+      }
+    },
+    {
+      "n": 8,
+      "source_graph6": "GqD?I?",
+      "source_count": 43,
+      "moved_graph6": "GqH?I?",
+      "moved_count": 34,
+      "move": {
+        "leaf": 4,
+        "from_neighbor": 3,
+        "to_leaf": 2
+      }
+    },
+    {
+      "n": 8,
+      "source_graph6": "GqD?I?",
+      "source_count": 43,
+      "moved_graph6": "Gq@?Y?",
+      "moved_count": 34,
+      "move": {
+        "leaf": 4,
+        "from_neighbor": 3,
+        "to_leaf": 6
+      }
+    },
+    {
+      "n": 8,
+      "source_graph6": "GqD?I?",
+      "source_count": 43,
+      "moved_graph6": "GqD@A?",
+      "moved_count": 34,
+      "move": {
+        "leaf": 6,
+        "from_neighbor": 5,
+        "to_leaf": 2
+      }
+    },
+    {
+      "n": 8,
+      "source_graph6": "GqD?I?",
+      "source_count": 43,
+      "moved_graph6": "GqD?Q?",
+      "moved_count": 34,
+      "move": {
+        "leaf": 6,
+        "from_neighbor": 5,
+        "to_leaf": 4
+      }
+    },
+    {
+      "n": 8,
+      "source_graph6": "GqDAA?",
+      "source_count": 25,
+      "moved_graph6": "GaLAA?",
+      "moved_count": 21,
+      "move": {
+        "leaf": 2,
+        "from_neighbor": 1,
+        "to_leaf": 4
+      }
+    },
+    {
+      "n": 8,
+      "source_graph6": "GqDAA?",
+      "source_count": 25,
+      "moved_graph6": "GqHAA?",
+      "moved_count": 21,
+      "move": {
+        "leaf": 4,
+        "from_neighbor": 3,
+        "to_leaf": 2
+      }
+    }
+  ],
+  "total_seconds": 0.11961389996577054,
+  "networkx": "3.3"
+}

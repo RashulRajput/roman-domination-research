@@ -1,0 +1,89 @@
+{
+  "n": 20,
+  "exhaustive_order20_census": false,
+  "prefix_records": 519739,
+  "candidate_graph6": "SpCGGC@?G?g??@??_?G?@??C??G??G??C",
+  "candidate_edges": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      11
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      7,
+      8
+    ],
+    [
+      8,
+      9
+    ],
+    [
+      9,
+      10
+    ],
+    [
+      11,
+      12
+    ],
+    [
+      12,
+      13
+    ],
+    [
+      13,
+      14
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      15,
+      16
+    ],
+    [
+      16,
+      17
+    ],
+    [
+      17,
+      18
+    ],
+    [
+      18,
+      19
+    ]
+  ],
+  "candidate_count_rooted_dp": 29908,
+  "candidate_count_independent_subset_counter": 29908,
+  "path_count_rooted_dp": 29908,
+  "path_count_independent_subset_counter": 29908,
+  "strict_path_counterexample": false
+}

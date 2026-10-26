@@ -1,0 +1,239 @@
+{
+  "operation": "transfer one edge from a leg a to a leg b when a>=b+2",
+  "hypothesis_tested": "balancing two legs of a spider never decreases m",
+  "exhaustive_orders": "4..19 over all integer partitions of n-1",
+  "per_order": [
+    {
+      "n": 4,
+      "spider_leg_partitions": 3,
+      "moves": 0,
+      "decreases": 0,
+      "equal": 0,
+      "increases": 0,
+      "seconds": 0.00020700006280094385
+    },
+    {
+      "n": 5,
+      "spider_leg_partitions": 5,
+      "moves": 1,
+      "decreases": 0,
+      "equal": 1,
+      "increases": 0,
+      "seconds": 0.0004480000352486968
+    },
+    {
+      "n": 6,
+      "spider_leg_partitions": 7,
+      "moves": 3,
+      "decreases": 0,
+      "equal": 1,
+      "increases": 2,
+      "seconds": 0.0009540999308228493
+    },
+    {
+      "n": 7,
+      "spider_leg_partitions": 11,
+      "moves": 8,
+      "decreases": 0,
+      "equal": 2,
+      "increases": 6,
+      "seconds": 0.0024489000206813216
+    },
+    {
+      "n": 8,
+      "spider_leg_partitions": 15,
+      "moves": 17,
+      "decreases": 0,
+      "equal": 3,
+      "increases": 14,
+      "seconds": 0.006905399961397052
+    },
+    {
+      "n": 9,
+      "spider_leg_partitions": 22,
+      "moves": 34,
+      "decreases": 4,
+      "equal": 3,
+      "increases": 27,
+      "seconds": 0.014717599959112704
+    },
+    {
+      "n": 10,
+      "spider_leg_partitions": 30,
+      "moves": 61,
+      "decreases": 9,
+      "equal": 3,
+      "increases": 49,
+      "seconds": 0.015913199982605875
+    },
+    {
+      "n": 11,
+      "spider_leg_partitions": 42,
+      "moves": 108,
+      "decreases": 19,
+      "equal": 5,
+      "increases": 84,
+      "seconds": 0.02697280002757907
+    },
+    {
+      "n": 12,
+      "spider_leg_partitions": 56,
+      "moves": 178,
+      "decreases": 34,
+      "equal": 4,
+      "increases": 140,
+      "seconds": 0.054435200057923794
+    },
+    {
+      "n": 13,
+      "spider_leg_partitions": 77,
+      "moves": 289,
+      "decreases": 60,
+      "equal": 6,
+      "increases": 223,
+      "seconds": 0.09498149994760752
+    },
+    {
+      "n": 14,
+      "spider_leg_partitions": 101,
+      "moves": 451,
+      "decreases": 98,
+      "equal": 6,
+      "increases": 347,
+      "seconds": 0.18350939999800175
+    },
+    {
+      "n": 15,
+      "spider_leg_partitions": 135,
+      "moves": 696,
+      "decreases": 159,
+      "equal": 7,
+      "increases": 530,
+      "seconds": 0.25902190001215786
+    },
+    {
+      "n": 16,
+      "spider_leg_partitions": 176,
+      "moves": 1038,
+      "decreases": 245,
+      "equal": 6,
+      "increases": 787,
+      "seconds": 0.4050661000655964
+    },
+    {
+      "n": 17,
+      "spider_leg_partitions": 231,
+      "moves": 1540,
+      "decreases": 377,
+      "equal": 7,
+      "increases": 1156,
+      "seconds": 0.7096416000276804
+    },
+    {
+      "n": 18,
+      "spider_leg_partitions": 297,
+      "moves": 2228,
+      "decreases": 548,
+      "equal": 9,
+      "increases": 1671,
+      "seconds": 1.1494587999768555
+    },
+    {
+      "n": 19,
+      "spider_leg_partitions": 385,
+      "moves": 3203,
+      "decreases": 816,
+      "equal": 8,
+      "increases": 2379,
+      "seconds": 1.6036278000101447
+    }
+  ],
+  "smallest_counterexample": {
+    "n": 9,
+    "before_legs": [
+      1,
+      1,
+      2,
+      4
+    ],
+    "after_legs": [
+      1,
+      1,
+      3,
+      3
+    ],
+    "before_graph6": "HsE?GC@",
+    "before_edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ]
+    ],
+    "before_count": 57,
+    "after_graph6": "HsCK?C@",
+    "after_edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ]
+    ],
+    "after_count": 56
+  },
+  "total_seconds": 4.529060599976219
+}

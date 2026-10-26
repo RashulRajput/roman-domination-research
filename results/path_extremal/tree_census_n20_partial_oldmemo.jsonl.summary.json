@@ -1,0 +1,12 @@
+{
+  "order": 20,
+  "records_in_canonical_generator_prefix": 519739,
+  "prefix_maximum_only_not_C20": 29908,
+  "prefix_maximizer_graph6": [
+    "SpCGGC@?G?g??@??_?G?@??C??G??G??C"
+  ],
+  "exhaustive": false,
+  "stopped_reason": "The unbounded rooted-shape memo table exceeded approximately 1.1 GB during the exploratory run. Replaced by cache-bounded DP.",
+  "data_file": "tree_census_n20_partial_oldmemo.jsonl.gz",
+  "recovered_complete_rows_file": "tree_census_n20_partial_oldmemo_recovered.jsonl.gz"
+}

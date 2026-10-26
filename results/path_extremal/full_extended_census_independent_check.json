@@ -1,0 +1,49 @@
+{
+  "independent_counter": "fixed-array exact rooted-tree DP in fast_tree_dp.py",
+  "compared_against": "bounded-memo or dictionary rooted-tree DP census values",
+  "orders": {
+    "13": {
+      "trees_checked": 1301,
+      "expected_classes": 1301,
+      "all_counts_agree": true
+    },
+    "14": {
+      "trees_checked": 3159,
+      "expected_classes": 3159,
+      "all_counts_agree": true
+    },
+    "15": {
+      "trees_checked": 7741,
+      "expected_classes": 7741,
+      "all_counts_agree": true
+    },
+    "16": {
+      "trees_checked": 19320,
+      "expected_classes": 19320,
+      "all_counts_agree": true
+    },
+    "17": {
+      "trees_checked": 48629,
+      "expected_classes": 48629,
+      "all_counts_agree": true
+    },
+    "18": {
+      "trees_checked": 123867,
+      "expected_classes": 123867,
+      "all_counts_agree": true
+    },
+    "19": {
+      "trees_checked": 317955,
+      "expected_classes": 317955,
+      "all_counts_agree": true
+    },
+    "20": {
+      "trees_checked": 823065,
+      "expected_classes": 823065,
+      "all_counts_agree": true
+    }
+  },
+  "mismatch_count": 0,
+  "mismatches": [],
+  "seconds": 1289.6559851999627
+}

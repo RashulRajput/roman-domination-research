@@ -1,0 +1,551 @@
+{
+  "statement": "m(T_k) = 3^k + 2^k - 1 for the k-arm length-2 spider",
+  "verification": "subset counter k=1..8; independent direct-label counters for T_k and P_(2k+1) through k=5; exhaustive unlabeled-tree census through order 12",
+  "rows": [
+    {
+      "k": 1,
+      "order": 3,
+      "formula": 4,
+      "subset_counter": 4,
+      "path_count_same_order": 4,
+      "family_minus_path": 0,
+      "direct_label_counter": 4,
+      "path_direct_label_counter": 4,
+      "tree_and_chordal": true
+    },
+    {
+      "k": 2,
+      "order": 5,
+      "formula": 12,
+      "subset_counter": 12,
+      "path_count_same_order": 12,
+      "family_minus_path": 0,
+      "direct_label_counter": 12,
+      "path_direct_label_counter": 12,
+      "tree_and_chordal": true
+    },
+    {
+      "k": 3,
+      "order": 7,
+      "formula": 34,
+      "subset_counter": 34,
+      "path_count_same_order": 34,
+      "family_minus_path": 0,
+      "direct_label_counter": 34,
+      "path_direct_label_counter": 34,
+      "tree_and_chordal": true
+    },
+    {
+      "k": 4,
+      "order": 9,
+      "formula": 96,
+      "subset_counter": 96,
+      "path_count_same_order": 96,
+      "family_minus_path": 0,
+      "direct_label_counter": 96,
+      "path_direct_label_counter": 96,
+      "tree_and_chordal": true
+    },
+    {
+      "k": 5,
+      "order": 11,
+      "formula": 274,
+      "subset_counter": 274,
+      "path_count_same_order": 273,
+      "family_minus_path": 1,
+      "direct_label_counter": 274,
+      "path_direct_label_counter": 273,
+      "tree_and_chordal": true
+    },
+    {
+      "k": 6,
+      "order": 13,
+      "formula": 792,
+      "subset_counter": 792,
+      "path_count_same_order": 775,
+      "family_minus_path": 17,
+      "direct_label_counter": null,
+      "path_direct_label_counter": null,
+      "tree_and_chordal": true
+    },
+    {
+      "k": 7,
+      "order": 15,
+      "formula": 2314,
+      "subset_counter": 2314,
+      "path_count_same_order": 2201,
+      "family_minus_path": 113,
+      "direct_label_counter": null,
+      "path_direct_label_counter": null,
+      "tree_and_chordal": true
+    },
+    {
+      "k": 8,
+      "order": 17,
+      "formula": 6816,
+      "subset_counter": 6816,
+      "path_count_same_order": 6250,
+      "family_minus_path": 566,
+      "direct_label_counter": null,
+      "path_direct_label_counter": null,
+      "tree_and_chordal": true
+    }
+  ],
+  "unlabeled_tree_census_through_12": [
+    {
+      "order": 1,
+      "unlabeled_trees": 1,
+      "path_count": 1,
+      "maximum_tree_count": 1,
+      "number_of_maximizing_tree_classes": 1,
+      "path_is_tree_maximal": true,
+      "violating_tree_classes": 0,
+      "one_maximizer_edges": []
+    },
+    {
+      "order": 2,
+      "unlabeled_trees": 1,
+      "path_count": 3,
+      "maximum_tree_count": 3,
+      "number_of_maximizing_tree_classes": 1,
+      "path_is_tree_maximal": true,
+      "violating_tree_classes": 0,
+      "one_maximizer_edges": [
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "order": 3,
+      "unlabeled_trees": 1,
+      "path_count": 4,
+      "maximum_tree_count": 4,
+      "number_of_maximizing_tree_classes": 1,
+      "path_is_tree_maximal": true,
+      "violating_tree_classes": 0,
+      "one_maximizer_edges": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "order": 4,
+      "unlabeled_trees": 2,
+      "path_count": 7,
+      "maximum_tree_count": 7,
+      "number_of_maximizing_tree_classes": 1,
+      "path_is_tree_maximal": true,
+      "violating_tree_classes": 0,
+      "one_maximizer_edges": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ]
+    },
+    {
+      "order": 5,
+      "unlabeled_trees": 3,
+      "path_count": 12,
+      "maximum_tree_count": 12,
+      "number_of_maximizing_tree_classes": 1,
+      "path_is_tree_maximal": true,
+      "violating_tree_classes": 0,
+      "one_maximizer_edges": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "order": 6,
+      "unlabeled_trees": 6,
+      "path_count": 20,
+      "maximum_tree_count": 20,
+      "number_of_maximizing_tree_classes": 1,
+      "path_is_tree_maximal": true,
+      "violating_tree_classes": 0,
+      "one_maximizer_edges": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ]
+    },
+    {
+      "order": 7,
+      "unlabeled_trees": 11,
+      "path_count": 34,
+      "maximum_tree_count": 34,
+      "number_of_maximizing_tree_classes": 2,
+      "path_is_tree_maximal": true,
+      "violating_tree_classes": 0,
+      "one_maximizer_edges": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ]
+      ]
+    },
+    {
+      "order": 8,
+      "unlabeled_trees": 23,
+      "path_count": 57,
+      "maximum_tree_count": 57,
+      "number_of_maximizing_tree_classes": 1,
+      "path_is_tree_maximal": true,
+      "violating_tree_classes": 0,
+      "one_maximizer_edges": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ]
+      ]
+    },
+    {
+      "order": 9,
+      "unlabeled_trees": 47,
+      "path_count": 96,
+      "maximum_tree_count": 96,
+      "number_of_maximizing_tree_classes": 2,
+      "path_is_tree_maximal": true,
+      "violating_tree_classes": 0,
+      "one_maximizer_edges": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ]
+      ]
+    },
+    {
+      "order": 10,
+      "unlabeled_trees": 106,
+      "path_count": 162,
+      "maximum_tree_count": 162,
+      "number_of_maximizing_tree_classes": 1,
+      "path_is_tree_maximal": true,
+      "violating_tree_classes": 0,
+      "one_maximizer_edges": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          9
+        ]
+      ]
+    },
+    {
+      "order": 11,
+      "unlabeled_trees": 235,
+      "path_count": 273,
+      "maximum_tree_count": 274,
+      "number_of_maximizing_tree_classes": 1,
+      "path_is_tree_maximal": false,
+      "violating_tree_classes": 1,
+      "one_maximizer_edges": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          9,
+          10
+        ]
+      ]
+    },
+    {
+      "order": 12,
+      "unlabeled_trees": 551,
+      "path_count": 460,
+      "maximum_tree_count": 460,
+      "number_of_maximizing_tree_classes": 1,
+      "path_is_tree_maximal": true,
+      "violating_tree_classes": 0,
+      "one_maximizer_edges": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          10,
+          11
+        ]
+      ]
+    }
+  ],
+  "first_tree_counterexample": {
+    "order": 11,
+    "count": 274,
+    "path_count": 273,
+    "edges": [
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        0,
+        9
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        9,
+        10
+      ]
+    ]
+  },
+  "T3_deletion_checks": {
+    "m_T3": 34,
+    "counts_after_deleting_each_leaf": [
+      17,
+      17,
+      17
+    ],
+    "counts_after_deleting_each_pair_of_leaves": [
+      9,
+      9,
+      9
+    ]
+  }
+}
